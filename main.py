@@ -15,7 +15,7 @@ TARGET_DIR = "."
 # Add/remove as needed.
 SUPPORTED_INPUT_EXTENSIONS = (
     '.cr2', '.nef', '.arw', '.dng', '.rw2',  # RAW
-    '.jpg', '.jpeg', '.png', '.webp', '.tif', '.tiff', '.bmp', '.heic'  # common image types
+    '.jpg', '.jpeg', '.png', '.webp', '.tif', '.tiff', '.bmp', '.heic', '.avif'  # common image types
 )
 
 TARGET_EXTENSION = '.JPG'  # output extension

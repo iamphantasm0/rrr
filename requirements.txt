@@ -1,0 +1,16 @@
+# Image Processing Automation - Dependencies
+# Install with: pip install -r requirements.txt
+
+# Image processing
+Pillow>=10.0.0
+rawpy>=0.19.0
+imageio>=2.31.0
+
+# Environment variable management
+python-dotenv>=1.0.0
+
+# MySQL database connection
+mysql-connector-python>=8.0.0
+
+# Note: ftplib is part of Python standard library (no install needed)
+

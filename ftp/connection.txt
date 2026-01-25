@@ -1,0 +1,27 @@
+FTP Accounts
+ - Websites - lasacoassurance.com - Files - FTP Accounts
+FTP Access
+FTP IP (hostname)	ftp://212.85.30.97 
+FTP username	u321880591 
+FTP port	21
+Folder to upload files	public_html
+Forgot your FTP password?	
+Recommended FTP clients	
+or
+
+Remote MySQL
+ - Websites - lasacoassurance.com - Databases - Remote MySQL
+Create remote database connection
+Use this feature to connect to our MySQL server from your computer or from some other server. Simply add your IP address that will connect to our MySQL server and choose the database name from the list that you want to connect to.
+
+Our MySQL server hostname is: srv661.hstgr.io or you can use this IP as your hostname: 77.37.35.164
+
+
+IP (IPv4 or IPv6)
+Fill in this field
+
+Any Host
+Database
+Database
+u321880591_admincms
+
