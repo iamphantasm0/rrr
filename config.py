@@ -11,7 +11,7 @@ load_dotenv()
 # --- Image Processing Configuration ---
 START_NUMBER = 4490
 NEW_PREFIX = 'photo-'
-TARGET_DIR = "."
+TARGET_DIR = "img"
 
 # Supported input image extensions (case-insensitive)
 SUPPORTED_INPUT_EXTENSIONS = (
