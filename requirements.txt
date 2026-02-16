@@ -1,16 +1,30 @@
 # Image Processing Automation - Dependencies
 # Install with: pip install -r requirements.txt
 
-# Image processing
-Pillow>=10.0.0
-rawpy
-imageio>=2.31.0
+# === RECOMMENDED: System-level tools (for best performance) ===
+# ffmpeg - Install from: https://ffmpeg.org/download.html
+#   - Windows: Download from ffmpeg.org or use: winget install ffmpeg
+#   - Linux: sudo apt install ffmpeg
+#   - macOS: brew install ffmpeg
+#
+# libraw (dcraw_emu) - For high-quality RAW processing
+#   - Windows: Download from https://www.libraw.org/download
+#   - Linux: sudo apt install libraw-bin
+#   - macOS: brew install libraw
 
-# Environment variable management
+# === Python Dependencies ===
+
+# Environment variable management (REQUIRED)
 python-dotenv>=1.0.0
 
-# MySQL database connection
+# MySQL database connection (REQUIRED)
 mysql-connector-python>=8.0.0
 
-# Note: ftplib is part of Python standard library (no install needed)
+# === OPTIONAL: Fallback libraries (used if ffmpeg not available) ===
+# Uncomment these if you don't want to install ffmpeg/libraw:
 
+# Pillow>=10.0.0          # Standard image format processing
+# rawpy                   # RAW image format processing
+# imageio>=2.31.0         # Image I/O operations
+
+# Note: ftplib is part of Python standard library (no install needed)
