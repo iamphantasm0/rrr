@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # --- Image Processing Configuration ---
-START_NUMBER = 422
+START_NUMBER = 4490
 NEW_PREFIX = 'photo-'
 TARGET_DIR = "."
 
@@ -23,8 +23,8 @@ TARGET_EXTENSION = '.JPG'
 JPEG_QUALITY = 95
 
 # --- SQL Configuration ---
-P_CATEGORY_ID = 16
-CAPTION_PREFIX = "AGM2025"
+P_CATEGORY_ID = 17
+CAPTION_PREFIX = "TEST1"
 SQL_OUT_FILE = "tbl_photo_insert.sql"
 TABLE_NAME = "tbl_photo"
 
